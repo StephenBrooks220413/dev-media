@@ -6,7 +6,17 @@
   <router-view />
 </template>
 
+<script>
+import * as mdb from "mdb-ui-kit";
+
+export default {
+  mdb,
+};
+</script>
+
 <style lang="scss">
+@import "~mdb-ui-kit/css/mdb.min.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
